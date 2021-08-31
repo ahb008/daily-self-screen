@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Self Screen",
+    "version": "0.1",
+    "content_scripts": [
+        {
+          "matches": ["https://screening.wustl.edu/symptom-screener"],
+          "js": ["content.js"]
+        }
+      ]
+}
+
